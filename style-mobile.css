@@ -96,6 +96,10 @@ body {
     transform: rotate(180deg);
 }
 
+.oscuro {
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 1080px) {
     .container__main {
         width: 450px;
