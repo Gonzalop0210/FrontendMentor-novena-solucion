@@ -10,34 +10,33 @@ const iconThre = document.querySelector('.arrow__3');
 const iconFour = document.querySelector('.arrow__4');
 const iconFive = document.querySelector('.arrow__5');
 
-const container = document.querySelector('.contsiner__question');
 
 iconOne.addEventListener('click', mostrarOne);
 function mostrarOne() {
     replyOne.classList.toggle('mostrar');
-    container.classList.toggle('.contsiner__question__start');
+    iconOne.classList.toggle('voltear')
 }
 
 iconTwo.addEventListener('click', mostrarTwo);
 function mostrarTwo() {
     replyTwo.classList.toggle('mostrar');
-    container.classList.add('.contsiner__question__start');
+    iconTwo.classList.toggle('voltear');
 }
 
 iconThre.addEventListener('click', mostrarThree);
 function mostrarThree() {
     replyThree.classList.toggle('mostrar');
-    container.classList.add('.contsiner__question__start');
+    iconThre.classList.toggle('voltear');
 }
 
 iconFour.addEventListener('click', mostrarFour);
 function mostrarFour() {
     replyFour.classList.toggle('mostrar');
-    container.classList.add('.contsiner__question__start');
+    iconFour.classList.toggle('voltear');
 }
 
 iconFive.addEventListener('click', mostrarFive);
 function mostrarFive() {
     replyFive.classList.toggle('mostrar');
-    container.classList.add('.contsiner__question__start');
+    iconFive.classList.toggle('voltear');
 }
